@@ -70,7 +70,7 @@ class ModelTrainer:
                     'n_estimators': [8,16,32,64,128,256]
                 },
                 "Linear Regression":{},
-                    "K-Neighbors Regressor": {
+                "K-Neighbors Regressor": {
                     'n_neighbors': [3, 5, 7, 9],
                     'weights': ['uniform', 'distance'],
                     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute']
